@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+esto es para resetear el css 
+*{
+	margin: 0;
+padding: 0;
+}
+
+
+html {
+	font-family: monserrat, sans-serif;
+	background-color: #ffd99f;
+	box-sizing: border-box;
+
+	}
+
+
+
+
+
+
+/*comienzo estilo inicio/index*/
+
+/*media query 320*/
+
+@media (min-width: 320px) {
+
+#grid-inicio{display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"nav"
+	"main"
+	"aside"
+	"pie";	
+	}
+/*inicio nav*/
+#nav{
+	grid-area: nav;
+	position: sticky;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.nav_logo{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#img_radius{
+	border-radius: 50%;
+	width: 50%;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+	
+
+
+}
+
+ul li{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+ul li a {
+	text-decoration: none;
+	color: black;
+	border: double hotpink;
+	padding: 1vh;
+	margin: 1vh 0vh 1vh 0vh;
+	width: 40vw;
+	text-align: center;
+	border-radius: 15%;
+
+
+}
+
+.transform:hover{
+	transform: translateY(-5px);
+	transition: 0.5s;
+}
+
+.gradient{
+	background: linear-gradient(to left, whitesmoke
+		, lightpink);
+}
+
+/*fin nav*/
+
+/*inicio main*/
+#main__index div a{
+	text-decoration: none;
+	color: black;
+	border: double hotpink;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+#main__index div{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	font-size: 6vh;
+	
+}
+
+#main__index{
+	grid-area: main;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+#novedades{
+	background-image: url(../img/almohadon-2.png);
+	background-size: 40% 100%;
+	background-repeat: no-repeat;
+}
+
+#ofertas{
+	background-image: url(../img/almohadon-5.png);
+	background-size: 40% 100%;
+	background-repeat: no-repeat;
+}
+
+#combos{
+	background-image: url(../img/almohadon-6.png);
+	background-size: 40% 100%;
+	background-repeat: no-repeat;
+}
+
+#aside{
+	grid-area: aside;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#mapa{
+	width: 100%;
+}
+
+/*fin main*/
+
+/*inicio footer*/
+#encontranos{
+	text-align: center;
+}
+
+#footer{
+	grid-area: pie;
+	text-align: center;
+	margin: auto;	
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer img{
+	border-radius: 50%;
+	width:75px}
+
+#footer_img{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}	
+
+/*fin footer*/
+}
+/*media query 1200px*/
+@media (min-width: 1200px){
+
+#grid-inicio{
+	grid-template-columns: 40% 40% 20%;
+	grid-template-rows:18vh 91.32vh auto ;
+	grid-template-areas: 
+	"nav nav nav"
+	"main main aside"
+	"pie pie pie" ;
+}
+/*inicio nav*/
+
+#img_radius{
+	border-radius: 50%;
+	width: 100%;
+	
+}
+
+#nav{
+	flex-direction: row;
+	top: 0px;
+
+	/*justify-content: space-evenly;*/
+}
+
+.nav{
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+
+
+/*cuando es ROJO agarra TODOS LOS DIV en cualquier HTML*/
+ul li{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px;
+
+}
+
+ ul li a {
+	width: auto;
+
+}
+
+/*fin nav*/
+
+/*inicio main*/
+#main__index{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+    width: 100%;
+
+}
+
+#main__index div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 6vh;
+	width: 50%;
+	height: 50%;
+	justify-content: flex-start;
+	
+}
+
+#main__index div a {
+	height: 100%;
+}
+
+#news {width: 100% !important;}
+
+#novedades{width: 100%;  
+
+}
+
+
+
+
+#ofertas{
+	width: 100%; box-sizing: border-box;
+}
+
+
+#combos {width: 100%; box-sizing: border-box;}
+
+.otros {width: 100%;}
+
+#titulo {height: 10%;border: double hotpink;
+	
+	}
+
+#map {height: 90%;border: double hotpink}
+
+#mapa {height: 100%; box-sizing: border-box;}
+
+/*fin main*/
+
+/*inicio footer*/
+#footer{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	justify-content: space-evenly;
+}
+/*fin footer*/
+
+}
+
+/*COMIENZO ESTILO "NOSOTROS"*/
+
+/*nosotros 320*/
+
+@media (min-width: 320px) {
+
+
+#grid-nosotros{display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"nav"
+	"main"
+	"pie";	
+	}
+
+/*inicio nav*/
+
+.nav_nos_cont{
+	border-bottom: double 1px hotpink;
+}
+/*fin nav*/
+
+/*inicio main*/
+.main__nosotros{
+	grid-area: main;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+
+}
+
+.main__nosotros div img{
+	border-radius: 50%;
+	width: 95%;
+	margin: auto;
+	
+
+
+}
+
+.main__nosotros div p{
+	text-align: center;
+}
+
+}
+
+#suc2{
+	height: 216.28px;
+}
+
+/*main 320*/
+
+/* nosotros 1200 */
+
+@media(min-width: 1200px){
+	#grid-nosotros{display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"nav"
+	"main"
+	"pie";	
+	}
+
+/* inicio nav */
+
+
+
+/*fin nav*/
+
+/*inicio main*/
+
+.main__nosotros{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.sucursales{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+
+}
+
+#sucursales{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;	
+	box-sizing: border-box;
+
+}
+
+#sucursales img{
+	height: 100%;
+}
+
+.text-alert{
+	color: grey;
+	}
+
+.texto-historia{
+	width: 95%;margin: 20px;
+	line-height: 2rem;
+	list-style: widht; 
+	text-align: center;
+	}
+
+
+/*fin main*/
+
+
+
+/*clases extras*/
+
+
+
+.fuente-titulos{
+	font-family: italic;
+	text-align: center;
+	}	
+
+
+
+.main-titulos-inicio{
+		border:double 3px hotpink;
+		font-size: 2rem;
+		color: black;
+-		 
+}
+
+
+
+.titulo-listado-productos{
+	width: 80%;
+	margin-left:0px	 ;
+	padding: 25px;
+	height: 100px;
+	box-sizing: border-box;
+	position: relative;
+	bottom: 517px;
+}
+
+.tabla-productos{
+	width: 80%;
+	height:375px;
+	position: relative;
+	bottom: 515px;
+	border: double 1px hotpink;
+
+	}
+
+
+
+
+
+.formulario{
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 25%;
+	border:double 3px hotpink ;
+	position: relative;
+	bottom: 500px;
+
+	}
+*/
+
+

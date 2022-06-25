@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BIG DECO STYLE - Contacto</title>
+	<link rel="shortcut icon" href="../img/logo.png">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<header>
+	
+		<a href="../index.html">
+	<!-- para cargar el logo img -->
+		<img src="../img/logo.png" alt="asdasdds">
+		</a>
+		<nav>
+			<ul>
+				<li><a href="../index.html">INICIO</a></li>
+				<li><a href="../views/bazar.html">BAZAR</a></li>
+				<li><a href="../views/decoracion.html">DECORACION</a></li>
+				<li><a href="../views/nosotros.html">NOSOTROS</a></li>
+				<li><a href="../views/contacto.html">CONTACTO</a></li>
+		</ul>
+	</nav>	<!-- final del nav -->	
+	</header><!-- final de header -->
+	
+	<main class="main">
+		<aside class="main-titulos-inicio fuente-titulos" id="encontranos-general" >Encontranos</aside>
+		<aside><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.783059206943!2d-58.52746428489209!3d-34.609646880457824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7db5c5277a9%3A0x52d7191d0913f678!2sAsunci%C3%B3n%205109%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1653969882882!5m2!1ses-419!2sar" width="600" height="450" style="border:auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa-general"></iframe></aside>
+
+		<form action="contacto.php">
+			<legend class="formulario fuente-titulos"><strong>Dejanos tu consulta:</strong></legend>
+			<fieldset  class="formulario">
+					<label for="nombre"><b class="fuente-titulos">Nombre:</b></label><br>
+					<input type="text" id="nombre"><br>
+					<label for="apellido"><b class="fuente-titulos">Apellido:</b></label><br>
+					<input type="text" id="apellido"><br>
+					<label for="email"><b class="fuente-titulos">Email:</b></label><br>
+					<input type="email" id="email" Placeholder="ejemplo@ejemplo.com"><br><br>
+					<label for="dia" ><b class="fuente-titulos">Fecha de nacimiento:</b></label><br>
+					<input type="text" id="dia" placeholder="dd/mm/aaaa"><br><br>
+					<label for="estado"class="fuente-titulos">Estado Civil</label>
+					<select name="" id="estado">
+						<option value="Soltero/a" class="fuente-titulos">Soltero/a</option>
+						<option value="Casado/a" class="fuente-titulos">Casado/a</option>
+					</select>	
+					<Div><b class="fuente-titulos">Sexo:</b></div>
+						<div class="fuente-titulos">
+						Hombre<input type="radio" name="sexo" value="Hombre">
+						Mujer<input type="radio" name="sexo" value="Mujer">	
+						</Div>
+						<br>
+					<Div class="fuente-titulos">Comentario:</Div>
+					<label for="mensaje"></label>
+					<textarea name="" placeholder="Dejanos tu mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+					<div class="fuente-titulos">Acepto Términos y condiciones
+						<input type="checkbox" name="acepta" value="1">	
+					</div>
+					<div>
+						<input type="submit" value="Enviar">
+						<input type="reset" value="Borrar">
+					</div>
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+		<div id="sucursales"><strong>SUCURSALES</strong>
+			<ol>
+				<li>MATADEROS</li>
+				<p>CARHUE 2556</p>
+				<li>VILLA DEL PARQUE</li>
+				<p>ASUNCION 5109</p>
+			</ol>
+		</div>
+		<div id="pie-seguinos-en-redes">
+			<h2 class="	fuente-titulos" >Seguinos en nuestras redes</h2>
+			<a href="https://www.bigdecostyle.com/" target="_blank">
+			<img src="../img/logo2.png" alt="asdiojkqw">
+			</a>
+			<a href="https://www.instagram.com/bigdecostyleok/">
+			<img src="../img/instagram.png" alt="">
+			</a>
+			<a href="https://www.facebook.com/BIGDECOSTYLE/">
+			<img src="../img/facebook.png" alt="">
+			</a>
+			<img src="../img/whatsapp.png" alt="">
+		</div>
+	</footer>
+	
+</body>
+</html>
