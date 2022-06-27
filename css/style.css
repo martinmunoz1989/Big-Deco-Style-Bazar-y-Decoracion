@@ -30,6 +30,7 @@ html {
 	grid-template-rows: auto;
 	grid-template-areas: 
 	"nav"
+	"header"
 	"main"
 	"aside"
 	"pie";	
@@ -102,6 +103,29 @@ ul li a {
 
 /*fin nav*/
 
+/*inicio header*/
+
+@keyframes headerAnimation {
+	0%{width: 100px; background-color: blue}
+	25%{width: 150px; background-color: red}
+	50%{width: 200px; background-color: yellow}
+	75%{width: 150px; background-color: pink}
+	100%{width: 100px;background-color: violet}
+}
+
+.headerAnimation{
+	grid-area: header;
+	height: 20vh;
+	animation-name: headeranimation;
+	animation-duration: 7.5s;
+	animation-iteration-count: infinite;
+	background-size: cover;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+}
+
+/*fin header*/
+
 /*inicio main*/
 #main__index div a{
 	text-decoration: none;
@@ -133,19 +157,19 @@ ul li a {
 }
 
 #novedades{
-	background-image: url(../img/almohadon-2.png);
+	background-image: url(../img/novedades.png);
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
 }
 
 #ofertas{
-	background-image: url(../img/almohadon-5.png);
+	background-image: url(../img/ofertas.png);
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
 }
 
 #combos{
-	background-image: url(../img/almohadon-6.png);
+	background-image: url(../img/combos.png);
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
 }
@@ -194,9 +218,10 @@ ul li a {
 
 #grid-inicio{
 	grid-template-columns: 40% 40% 20%;
-	grid-template-rows:18vh 91.32vh auto ;
+	grid-template-rows:19vh 25vh 91.32vh auto ;
 	grid-template-areas: 
 	"nav nav nav"
+	"header header header"
 	"main main aside"
 	"pie pie pie" ;
 }
@@ -232,6 +257,12 @@ ul li{
 	justify-content: space-evenly;
 	margin: 20px;
 
+}
+
+ul li a:hover
+{
+    -webkit-transition: all 0.5s ease-out;
+    color: hotpink;
 }
 
  ul li a {
