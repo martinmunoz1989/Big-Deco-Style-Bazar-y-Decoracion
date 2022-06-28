@@ -91,15 +91,7 @@ ul li a {
 
 }
 
-.transform:hover{
-	transform: translateY(-5px);
-	transition: 0.5s;
-}
 
-.gradient{
-	background: linear-gradient(to left, whitesmoke
-		, lightpink);
-}
 
 /*fin nav*/
 
