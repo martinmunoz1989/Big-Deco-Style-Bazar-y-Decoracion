@@ -16,9 +16,6 @@ html {
 
 
 
-
-
-
 /*comienzo estilo inicio/index*/
 
 /*media query 320*/
@@ -453,7 +450,28 @@ ul li a:hover
 
 /*fin main*/
 
+/*comiendo estilo bazar/deco*/
 
+@media (min-width: 1200px){
+
+#grid-bazar-deco{
+	grid-template-columns: 40% 40% 20%;
+	grid-template-rows:19vh 91.32vh auto ;
+	grid-template-areas: 
+	"nav nav nav"
+	"main main aside"
+	"pie pie pie" ;
+}
+
+.main__bazar_deco{
+	grid-area: main;
+	display: flex;
+	flex-direction: row;
+}
+
+.aside__bazar_deco{
+	grid-area: aside;
+}
 
 /*clases extras*/
 
@@ -472,30 +490,6 @@ ul li a:hover
 		color: black;
 -		 
 }
-
-
-
-.titulo-listado-productos{
-	width: 80%;
-	margin-left:0px	 ;
-	padding: 25px;
-	height: 100px;
-	box-sizing: border-box;
-	position: relative;
-	bottom: 517px;
-}
-
-.tabla-productos{
-	width: 80%;
-	height:375px;
-	position: relative;
-	bottom: 515px;
-	border: double 1px hotpink;
-
-	}
-
-
-
 
 
 .formulario{
