@@ -25,121 +25,18 @@ body {
 
 }
 
-.header{
-	height: 50%;
-}
-
-
-
-/*comienzo estilo inicio/index*/
-
-/*media query 320*/
-/*
-@media (min-width: 320px) {
-
-#grid-inicio{display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	grid-template-areas: 
-	"nav"
-	"header"
-	"main"
-	"aside"
-	"pie";	
-	}
-/*inicio nav*/
-/*#nav{
-	grid-area: nav;
-	position: sticky;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
-
-.nav_logo{
-	display:flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.nav{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-}
-
-#img_radius{
-	border-radius: 50%;
-	width: 50%;
-
-}
-ul {
-	list-style-type: none;
-	padding: 0px;
-	
-
-
-}
-
-ul li{
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-}
-ul li a {
-	text-decoration: none;
-	color: black;
-	border: double hotpink;
-	padding: 1vh;
-	margin: 1vh 0vh 1vh 0vh;
-	width: 40vw;
-	text-align: center;
-	border-radius: 15%;
-
-
-}
-
-.transform:hover{
-	transform: translateY(-5px);
-	transition: 0.5s;
-}
-
-.gradient{
-	background: linear-gradient(to left, whitesmoke
-		, lightpink);
-}*/
-
-/*fin nav*/
-
 /*inicio header*/
-/*
-@keyframes headerAnimation {
-	0%{width: 100px; background-color: blue}
-	25%{width: 150px; background-color: red}
-	50%{width: 200px; background-color: yellow}
-	75%{width: 150px; background-color: pink}
-	100%{width: 100px;background-color: violet}
-}*/
 
-/*.headerAnimation{
-	grid-area: header;
+.carrousel-h{
 	height: 20vh;
-	animation-name: headeranimation;
-	animation-duration: 7.5s;
-	animation-iteration-count: infinite;
-	background-size: cover;
-	animation-timing-function: ease-in;
-	animation-delay: 0s;
-}*/
+	
+}
 
 /*fin header*/
 
-/*inicio main*/
+/*inicio main index*/
+
+
 #main__index {
 	
 	color: black;
@@ -148,6 +45,13 @@ ul li a {
 	font-size: 6vh;
 }
 
+@media (min-width: 1200px){
+
+#main__index{
+	height: 40vh;
+}	
+
+}
 
 
 #novedades{
