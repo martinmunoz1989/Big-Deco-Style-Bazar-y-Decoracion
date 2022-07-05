@@ -12,10 +12,6 @@ body {
 	box-sizing: border-box;
 	}
 
-nav {
-	display: flex;
-}
-
 .body{
 	font-family: monserrat, sans-serif;
 	background-color: #ffd99f;
@@ -27,6 +23,10 @@ nav {
 	border-radius: 50%;
 	width: 50%;
 
+}
+
+.header{
+	height: 50%;
 }
 
 
@@ -140,51 +140,36 @@ ul li a {
 /*fin header*/
 
 /*inicio main*/
-#main__index div a{
-	text-decoration: none;
+#main__index {
+	
 	color: black;
 	border: double hotpink;
 	height: 20vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-
-}
-
-#main__index div{
-	display: flex;
-	flex-direction: column;
-	width: 100%;
 	font-size: 6vh;
-	
 }
 
-#main__index{
-	grid-area: main;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
+
 
 #novedades{
 	background-image: url(../img/novedades.png);
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
+	text-decoration: none;
+
 }
 
 #ofertas{
 	background-image: url(../img/ofertas.png);
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
+	text-decoration: none;
 }
 
 #combos{
 	background-image: url(../img/combos.png);
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
+	text-decoration: none;
 }
 
 #aside{

@@ -11,8 +11,8 @@
 
 </head>
 <body class="body" >	
-		<nav class="navbar navbar-expand-lg navbar-light sticky-top text-center" >
-			<a href="../index.html">
+		<nav class="navbar navbar-expand-lg navbar-light sticky-top text-center " id="" >
+			<a href="index.html">
 		<!-- para cargar el logo img -->
 			<img id="img_radius" src="img/logo.png" alt="">
 			</a>
@@ -27,7 +27,7 @@
 	  </li>
 	  <li class="nav-item dropdown">
 	    <a class="nav-link dropdown-toggle text-black" data-bs-toggle="dropdown" href="views/bazar.html" role="button" aria-expanded="false">Bazar</a>
-	    <ul class="dropdown-menu">
+	    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 	      <li><a class="dropdown-item text-black" href="#">Ceramica</a></li>
 	      <li><a class="dropdown-item text-black" href="#">Rigolleau</a></li>
 	      <li><a class="dropdown-item text-black" href="#">Limpieza</a></li>
@@ -82,15 +82,15 @@
 </div>
 
 </header>
-	<main  id="main__index">
-		<div id="news" >
-			<a href="novedades.html" id="novedades" >NOVEDADES</a>
+	<main class="container row" >
+		<div class="col-12 d-flex align-middle justify-content-center align-items-center" id="main__index" >
+			<a href="novedades.html" class="text-black" id="novedades" >NOVEDADES</a>
 		</div>
-		<div >
-			<a href="ofertas.html" id="ofertas">OFERTAS</a>
+		<div class="col-12 col-md-6" id="main__index" >
+			<a href="ofertas.html" class="text-black" id="ofertas">OFERTAS</a>
 		</div>
-		<div >
-			<a href="combos.html" id="combos">COMBOS</a>
+		<div class="col-12 col-md-6" id="main__index" >
+			<a href="combos.html" class="text-black" id="combos">COMBOS</a>
 		</div>
 	</main>
 	<aside id="aside" >
