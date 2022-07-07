@@ -25,10 +25,28 @@ body {
 
 }
 
+/*inicio nav*/
+
+ul li a{
+	border-color: hotpink!important;
+}
+
+ul li{
+	background: linear-gradient(to left,hotpink,whitesmoke);
+	margin-left: 30px;
+	border-color: #ffd99f !important;
+}
+
+ul li:hover{
+	transform: translate(0px,10px);
+	transition: transform 1.5s;
+}
+
+/*fin nav*/
 /*inicio header*/
 
 .carrousel-h{
-	height: 20vh;
+	height: 50vh;
 	
 }
 
@@ -37,19 +55,23 @@ body {
 /*inicio main index*/
 
 
-#main__index {
+.main__index {
 	
 	color: black;
 	border: double hotpink;
 	height: 20vh;
 	font-size: 6vh;
-}
-
-@media (min-width: 1200px){
-
-#main__index{
-	height: 40vh;
+	}
+.main__index a {
+	text-decoration: none;
 }	
+
+	@media (min-width: 1200px){
+
+	.main__index{
+		height: 40vh;
+
+	}	
 
 }
 
@@ -58,7 +80,7 @@ body {
 	background-image: url(../img/novedades.png);
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
-	text-decoration: none;
+	
 
 }
 
@@ -66,14 +88,14 @@ body {
 	background-image: url(../img/ofertas.png);
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
-	text-decoration: none;
+	
 }
 
 #combos{
 	background-image: url(../img/combos.png);
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
-	text-decoration: none;
+	
 }
 
 #aside{
@@ -87,61 +109,28 @@ body {
 	width: 100%;
 }
 
+
+/*fin main index*/
+
+/*main BAZAR/DECO*/
+@media (min-width: 1200px){
+
+
+figure img{
+	margin-left: 50px;
+}
+}
+
 #encontranos{
 	text-align: center;
 }
 
-#footer{
-	grid-area: pie;
-	text-align: center;
-	margin: auto;	
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-#footer img{
-	border-radius: 50%;
-	width:75px}
-
-#footer_img{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-}	
-
-/*fin main*/
-
-/*inicio footer*//*
-#encontranos{
-	text-align: center;
-}
-
-#footer{
-	grid-area: pie;
-	text-align: center;
-	margin: auto;	
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#footer img{
-	border-radius: 50%;
-	width:75px}
-
-#footer_img{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-}	
-*/
-/*fin footer*/
 }
 /*media query 1200px*/
 @media (min-width: 1200px){
 
-#grid-inicio{
+/*#grid-inicio{
 	grid-template-columns: 40% 40% 20%;
 	grid-template-rows:19vh 25vh 91.32vh auto ;
 	grid-template-areas: 
@@ -149,35 +138,30 @@ body {
 	"header header header"
 	"main main aside"
 	"pie pie pie" ;
-}
+}*/
 /*inicio nav*/
 
-#img_radius{
-	border-radius: 50%;
-	width: 100%;
-	
-}
-
+/*
 #nav{
 	flex-direction: row;
 	top: 0px;
 
 	justify-content: space-evenly;
 }
-
-.nav{
+*/
+/*.nav{
 	flex-direction: row;
 	flex-wrap: nowrap;
 	width: 100%;
 	margin-left: 20px;
 	margin-right: 20px;
 
-}
+}*/
 
 
 
 /*cuando es ROJO agarra TODOS LOS DIV en cualquier HTML*/
-ul li{
+/*ul li{
 	display: flex;
 	justify-content: space-evenly;
 	margin: 20px;
@@ -193,7 +177,7 @@ ul li a:hover
  ul li a {
 	width: auto;
 
-}
+}*/
 
 /*fin nav*/
 
@@ -207,62 +191,8 @@ ul li a:hover
 
 }
 
-#main__index div{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	font-size: 6vh;
-	width: 50%;
-	height: 50%;
-	justify-content: flex-start;
-	
-}
-
-#main__index div a {
-	height: 100%;
-}
-
-#news {width: 100% !important;}
-
-#novedades{width: 100%;  
-
-}
 
 
-
-
-#ofertas{
-	width: 100%; box-sizing: border-box;
-}
-
-
-#combos {width: 100%; box-sizing: border-box;}
-
-.otros {width: 100%;}
-
-#titulo {height: 10%;border: double hotpink;
-	
-	}
-
-#map {height: 90%;border: double hotpink}
-
-#mapa {height: 100%; box-sizing: border-box;}
-
-/*fin main*/
-
-/*inicio footer*/
-#footer{
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	margin-top: 10px;
-	justify-content: space-evenly;
-}
-/*fin footer*/
-
-}
-*/
-/*COMIENZO ESTILO "NOSOTROS"*/
 
 /*nosotros 320*/
 
@@ -378,24 +308,7 @@ ul li a:hover
 
 /*fin main*/
 
-/*comiendo estilo bazar/deco*/
 
-@media (min-width: 1200px){
-
-#grid-bazar-deco{
-	grid-template-columns: 40% 40% 20%;
-	grid-template-rows:19vh 91.32vh auto ;
-	grid-template-areas: 
-	"nav nav nav"
-	"main main aside"
-	"pie pie pie" ;
-}
-
-.main__bazar_deco{
-	grid-area: main;
-	display: flex;
-	flex-direction: row;
-}
 
 .aside__bazar_deco{
 	grid-area: aside;

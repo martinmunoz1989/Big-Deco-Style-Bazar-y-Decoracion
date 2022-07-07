@@ -3,58 +3,150 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>BIG DECO STYLE - Decoracion</title>
+	<title>BIG DECO STYLE - Bazar</title>
 	<link rel="shortcut icon" href="../img/logo.png">
 	<link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-	<body id="grid-nosotros">
-	<nav id="nav" class="nav_nos_cont">
-		
-		<a class="nav_logo" href="../index.html">
-	<!-- para cargar el logo img -->
-		<img id="img_radius" src="../img/logo.png" alt="">
-		</a>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	
-		<ul class="nav">
-			<li class="transform"><a class="gradient" href="../index.html">INICIO</a></li>
-			<li class="transform"><a class="gradient" href="../views/bazar.html">BAZAR</a></li>
-			<li class="transform"><a class="gradient" href="../views/decoracion.html">DECORACION</a></li>
-			<li class="transform"><a class="gradient" href="../views/nosotros.html">NOSOTROS</a></li>
-			<li class="transform"><a class="gradient" href="../views/contacto.html">CONTACTO</a></li>
-		</ul>
-	</nav>	<!-- final del nav -->
-	<main class="main">
+</head>
+<body class="body">
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top text-center " id="" >
+			<a href="../index.html">
+		
+			<img id="img_radius" src="../img/logo.png" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+	    
+	    <div class="navbar-collapse collapse justify-content-center" id="navbarSupportedContent">
+		<ul class="nav nav-tabs ">
+	  <li class="nav-item ">
+	    <a class="nav-link text-black " aria-current="page" href="#index.html">Inicio</a>
+	  </li>
+	  <li class="nav-item dropdown">
+	    <a class="nav-link dropdown-toggle text-black" data-bs-toggle="dropdown" href="views/bazar.html" role="button" aria-expanded="false">Bazar</a>
+	    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+	      <li><a class="dropdown-item text-black" href="#">Ceramica</a></li>
+	      <li><a class="dropdown-item text-black" href="#">Rigolleau</a></li>
+	      <li><a class="dropdown-item text-black" href="#">Limpieza</a></li>
+	      <li><a class="dropdown-item text-black" href="#">Cubiertos</a></li>
+	    </ul>
+	  </li>
+	  <li class="nav-item dropdown">
+	    <a class="nav-link dropdown-toggle text-black" data-bs-toggle="dropdown" href="../views/decoracion.html" role="button" aria-expanded="false">Decoracion</a>
+	    <ul class="dropdown-menu">
+	      <li><a class="dropdown-item text-black" href="#">Puff</a></li>
+	      <li><a class="dropdown-item text-black" href="#">Flores</a></li>
+	      <li><a class="dropdown-item text-black" href="#">Manteles</a></li>
+	    </ul>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link text-black" href="../views/nosotros.html">Nosotros</a>
+	  </li>
+	   <li class="nav-item">
+	    <a class="nav-link text-black" href="../views/contacto.html">Contacto</a>
+	  </li>
+	 
+	</ul>
+	
+	</div>
+</nav>
+<header>
+	<div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/carousel/021BA5677_2.jpg" class="d-block w-100 carrousel-h" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/carousel/046LM5870D.jpg" class="d-block w-100 carrousel-h" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/carousel/CCCFH600.jpg" class="d-block w-100 carrousel-h" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/carousel/la100012.jpg" class="d-block w-100 carrousel-h" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-		<aside class="main-titulos-inicio fuente-titulos" id="encontranos-general" >Encontranos</aside>
-		<aside><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.783059206943!2d-58.52746428489209!3d-34.609646880457824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7db5c5277a9%3A0x52d7191d0913f678!2sAsunci%C3%B3n%205109%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1653969882882!5m2!1ses-419!2sar" width="600" height="450" style="border:auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa-general"></iframe></aside>
+</header><!-- final del HEADER -->
+<h1 class="d-flex justify-content-center">DECORACION</h1>
+	<main class="d-flex flex-wrap">
 
-		<table border="5" cellpadding="5" cellspacing="5" class="tabla-productos"><H2 class="titulo-listado-productos fuente-titulos"><STRONG>LISTADO DE PRODUCTOS</STRONG></H2>
-			<tr>
-				<td>Articulo</td>
-				<td>Precio</td>
-				<td>Modelo/Color</td>
-			</tr>
-			<tr>
-				<td>Portarretrato</td>
-				<td>1500</td>
-			 	<td>Marron</td>
-			</tr>
-			<tr>
-				<td>Iman - Set x 6</td>
-				<td>1800</td>
-				<td>Osos</td>
-			</tr>
-			<tr>
-				<td>Canasto de Mimbre</td>
-				<td>2300</td>
-				<td>"SWEET HOME"</td>
-			</tr>
-		</table>
-	</main>
-	<footer id="footer">
-		<div ><strong>SUCURSALES</strong>
-			<ol>
+		<figure class="col-4">
+			<img src="../img/DECO/046de6777.jpg" alt="">
+			<figcaption>Puff flores 28 x 28 cm</figcaption>
+			<p class="price">$3.499,99</p>
+		</figure>
+		<figure class="col-4">
+			<img src="../img/deco/046as7260.jpg" alt="">
+			<figcaption>Puff redondo violeta 30 x 30 cm</figcaption>
+			<p class="price">$3.699,99</p>
+		</figure>
+		<figure class="col-4">
+			<img src="../img/deco/046as7258_4.jpg" alt="">
+			<figcaption>Puff redondo grande 44 x 30 cm</figcaption>
+			<p class="price">$4.299,99</p>
+		</figure>
+		<figure class="col-4">
+			<img src="../img/deco/almohadon-1.jpg" alt="">
+			<figcaption>Almohadon Corazon</figcaption>
+			<p class="price">$1.399,99</p>
+		</figure>
+		<figure class="col-4">
+			<img src="../img/deco/almohadon-2.png" alt="">
+			<figcaption>Almohadon Hoja</figcaption>
+			<p class="price">$1.399,99</p>
+		</figure>
+		<figure class="col-4">
+			<img src="../img/deco/almohadon-3.jpg" alt="">
+			<figcaption>Almohadon Hojas - rayas</figcaption>
+			<p class="price">$1.399,99</p>
+		</figure>
+		<figure class="col-4">
+			<img src="../img/deco/chucuad11_1.jpg" alt="">
+			<figcaption>Mantel cuadrado multicolor 1.20 mtrs </figcaption>
+			<p class="price">$1.799,99</p>
+		</figure>
+		<figure class="col-4">
+			<img src="../img/deco/chucuad2.jpg" alt="">
+			<figcaption>Mantel cuadrado hojas fucsias 1.20 mtrs</figcaption>
+			<p class="price">$1.799,99</p>
+		</figure>
+		<figure class="col-4">
+			<img src="../img/deco/chucuad3.jpg" alt="">
+			<figcaption>Mantel cuadrado hojas azules</figcaption>
+			<p class="price">$1.799,99</p>
+		</figure>
+
+	</main>	
+		<aside class="aside__bazar_deco" >
+		<div id="titulo">
+			<h3 id="encontranos">Encontranos</h3>
+		</div>
+		<div  >
+			<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7832338332823!2d-58.52746428505225!3d-34.60964246531798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7db5c5277a9%3A0x52d7191d0913f678!2sAsunci%C3%B3n%205109%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1656134662638!5m2!1ses!2sar"referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</aside>
+
+	
+	<footer >
+		<div class="mt-2 text-center"><strong>SUCURSALES</strong>
+			<ol class="d-flex flex-column justify-content-center">
 				<li>MATADEROS</li>
 				<p>CARHUE 2556</p>
 				<li>VILLA DEL PARQUE</li>
@@ -62,21 +154,22 @@
 			</ol>
 		</div>
 		<div >
-			<div> <h3>Seguinos en nuestras redes</h3></div>
-			<div id="footer_img">
+			<div class="mt-2 text-center"> <h3>Seguinos en nuestras redes</h3></div>
+			<div class="mt-2 text-center text-nowrap">
 
-			<a href="https://www.bigdecostyle.com/" target="_blank">
-			<img src="../img/logo2.png" alt="asdiojkqw">
+			<a href="https://www.bigdecostyle.com/"target="_blank">
+			<img src="../img/logo2.png" class="rounded-circle" alt="asdiojkqw">
 			</a>
 			<a href="https://www.instagram.com/bigdecostyleok/" target="_blank">
-			<img src="../img/instagram.png" alt="">
+			<img src="../img/instagram.png" class="rounded-circle" alt="">
 			</a>
 			<a href="https://www.facebook.com/BIGDECOSTYLE/" target="_blank">
-			<img src="../img/facebook.png" alt="">
+			<img src="../img/facebook.png" class="rounded-circle" alt="">
 			</a>
-			<img src="../img/whatsapp.png" alt="">
+			<img src="../img/whatsapp.png" class="rounded-circle" alt="">
 		</div>
 	</footer>
-	
+
+	<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
