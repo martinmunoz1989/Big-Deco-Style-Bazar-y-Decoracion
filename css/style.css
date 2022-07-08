@@ -3,7 +3,9 @@
 esto es para resetear el css 
 *{
 	
+	
 }
+
 
 
 body {
@@ -107,6 +109,7 @@ ul li:hover{
 
 #mapa{
 	width: 100%;
+	height: 100%;
 }
 
 
@@ -116,8 +119,8 @@ ul li:hover{
 @media (min-width: 1200px){
 
 
-figure img{
-	margin-left: 50px;
+img{
+	width: auto;
 }
 }
 
@@ -320,7 +323,6 @@ ul li a:hover
 
 .fuente-titulos{
 	font-family: italic;
-	text-align: center;
 	}	
 
 
