@@ -29,6 +29,10 @@ body {
 
 /*inicio nav*/
 
+nav{
+	border: double hotpink;
+}
+
 ul li a{
 	border-color: hotpink!important;
 }
@@ -61,11 +65,17 @@ ul li:hover{
 	
 	color: black;
 	border: double hotpink;
-	height: 20vh;
-	font-size: 6vh;
+
 	}
+
+.main__index li {
+	height: 20vh;
+}
+
 .main__index a {
 	text-decoration: none;
+	font-size: 6vh;
+	
 }	
 
 	@media (min-width: 1200px){
@@ -77,6 +87,11 @@ ul li:hover{
 
 }
 
+
+#encontranos{
+	height: 10vh;
+	font-size: 6vh;
+}
 
 #novedades{
 	background-image: url(../img/novedades.png);
@@ -119,9 +134,7 @@ ul li:hover{
 @media (min-width: 1200px){
 
 
-img{
-	width: auto;
-}
+
 }
 
 #encontranos{
