@@ -16,7 +16,7 @@ body {
 
 .body{
 	font-family: monserrat, sans-serif;
-	background-color: #ffd99f;
+	background-color: #ecd3a7;
 	box-sizing: border-box;
 	margin: 8px !important;
 }
@@ -30,17 +30,17 @@ body {
 /*inicio nav*/
 
 nav{
-	border: double hotpink;
+	border: double rgba(255, 80, 114, 1);
 }
 
 ul li a{
-	border-color: hotpink!important;
+	border-color: rgba(255, 80, 114, 1)!important;
 }
 
 ul li{
-	background: linear-gradient(to left,hotpink,whitesmoke);
+	background: linear-gradient(to left,#ef9a9a,whitesmoke);
 	margin-left: 30px;
-	border-color: #ffd99f !important;
+	border-color: #ecd3a7 !important;
 }
 
 ul li:hover{
@@ -64,7 +64,7 @@ ul li:hover{
 .main__index {
 	
 	color: black;
-	border: double hotpink;
+	border: double rgba(255, 80, 114, 1);
 
 	}
 
