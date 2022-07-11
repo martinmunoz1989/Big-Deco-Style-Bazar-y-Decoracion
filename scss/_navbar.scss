@@ -1,0 +1,24 @@
+nav{
+	border: double $color-2
+}
+
+ul li{
+	background: linear-gradient(to left,#ef9a9a,whitesmoke);
+	margin-left: 30px;
+	border-color: $color-1 !important;
+		&:hover{
+		transform: translate(0px,10px);
+		transition: transform 1.5s;
+
+			a{
+				border-color: $color-2!important;
+				
+		}
+	}
+}
+
+#img_radius{
+	border-radius: 50%;
+	width: 50%;
+
+}

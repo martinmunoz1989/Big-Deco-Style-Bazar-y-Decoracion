@@ -291,24 +291,6 @@ ul li a:hover
 	flex-wrap: wrap;
 }
 
-.sucursales{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-
-}
-
-#sucursales{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;	
-	box-sizing: border-box;
-
-}
-
-#sucursales img{
-	height: 100%;
-}
 
 .text-alert{
 	color: grey;

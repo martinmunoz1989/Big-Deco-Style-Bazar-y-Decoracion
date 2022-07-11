@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
+.text-center {
+  text-align: center; }
+
+.body {
+  font-family: "montserrat", sans-serif;
+  background-color: #ecd3a7;
+  box-sizing: border-box;
+  margin: 8px !important; }
+
+h1, h2 {
+  text-align: center; }
+
+nav {
+  border: double #ff5072; }
+
+ul li {
+  background: linear-gradient(to left, #ef9a9a, whitesmoke);
+  margin-left: 30px;
+  border-color: #ecd3a7 !important; }
+  ul li:hover {
+    transform: translate(0px, 10px);
+    transition: transform 1.5s; }
+    ul li:hover a {
+      border-color: #ff5072 !important; }
+
+#img_radius {
+  border-radius: 50%;
+  width: 50%; }
+
+#sucursal-2 {
+  height: 355px;
+  width: 474px; }
+
+.carrousel-h {
+  height: 50vh; }
