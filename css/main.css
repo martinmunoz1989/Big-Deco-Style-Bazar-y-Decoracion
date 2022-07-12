@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
+.borde {
+  border: double #ff5072; }
+
 .text-center {
   text-align: center; }
 
@@ -34,3 +37,6 @@ ul li {
 
 .carrousel-h {
   height: 50vh; }
+
+header {
+  background-color: #F5F0F0; }
