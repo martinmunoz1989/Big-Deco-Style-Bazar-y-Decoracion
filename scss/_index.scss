@@ -1,0 +1,36 @@
+.main__index{
+	color: $negro;
+	border:double $color-2;
+	height: $gde;
+	font-size: $L;
+			a{
+				text-decoration: none !important;
+				
+			}
+	
+}
+
+#encontranos{
+	height: $peque;
+	font-size: $L;
+}
+
+#novedades{
+	background-image: url(../img/novedades.png);
+	background-size: 40% 100%;
+	background-repeat: no-repeat;
+}
+
+#ofertas{
+	background-image: url(../img/ofertas.png);
+	background-size: 40% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+#combos{
+	background-image: url(../img/combos.png);
+	background-size: 40% 100%;
+	background-repeat: no-repeat;
+	
+}

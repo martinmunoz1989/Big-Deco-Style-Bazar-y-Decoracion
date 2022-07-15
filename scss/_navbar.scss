@@ -1,9 +1,10 @@
 nav{
-	border: double $color-2
+	border: double $color-2;
+	background-color:$negro;
 }
 
 ul li{
-	background: linear-gradient(to left,#ef9a9a,whitesmoke);
+	background: linear-gradient(to left,$rosa-chicle,$blanco-humo);
 	margin-left: 30px;
 	border-color: $color-1 !important;
 		&:hover{
@@ -21,5 +22,19 @@ ul li{
 	border-radius: 50%;
 	width: 50%;
 
+}
+
+.nav{
+	border-bottom:0px !important;
+}
+
+.navbar-toggler{
+	background-color:$blanco !important;
+	margin-right: 50px;
+}
+
+.nav-tabs{
+	display:flex;
+	justify-content: center;
 }
 

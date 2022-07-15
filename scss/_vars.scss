@@ -3,10 +3,21 @@
 $color-1:#ecd3a7;
 $color-2:rgba(255, 80, 114, 1);
 $blanco: #F5F0F0;
+$blanco-humo:whitesmoke;
 $negro:#0F0E0E;
+$rosa-chicle:#ef9a9a;
 
 //bordes
 
 .borde{
 	border:double $color-2;
 }
+
+//tamaño-contenedor
+
+$gde:40vh;
+$med:30vh;
+$chico:20vh;
+$peque:10vh;
+$full-w:100%;
+$full-h:100%;

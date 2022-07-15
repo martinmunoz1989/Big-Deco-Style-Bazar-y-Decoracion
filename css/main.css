@@ -11,11 +11,18 @@
   box-sizing: border-box;
   margin: 8px !important; }
 
-h1, h2 {
-  text-align: center; }
+h1, h2, h3 {
+  text-align: center;
+  font-size: 6vh;
+  font-weight: 350;
+  text-decoration: underline; }
+
+figure {
+  border: double #ff5072; }
 
 nav {
-  border: double #ff5072; }
+  border: double #ff5072;
+  background-color: #0F0E0E; }
 
 ul li {
   background: linear-gradient(to left, #ef9a9a, whitesmoke);
@@ -30,6 +37,44 @@ ul li {
 #img_radius {
   border-radius: 50%;
   width: 50%; }
+
+.nav {
+  border-bottom: 0px !important; }
+
+.navbar-toggler {
+  background-color: #F5F0F0 !important;
+  margin-right: 50px; }
+
+.nav-tabs {
+  display: flex;
+  justify-content: center; }
+
+.main__index {
+  color: #0F0E0E;
+  border: double #ff5072;
+  height: 40vh;
+  font-size: 6vh; }
+  .main__index a {
+    text-decoration: none !important; }
+
+#encontranos {
+  height: 10vh;
+  font-size: 6vh; }
+
+#novedades {
+  background-image: url(../img/novedades.png);
+  background-size: 40% 100%;
+  background-repeat: no-repeat; }
+
+#ofertas {
+  background-image: url(../img/ofertas.png);
+  background-size: 40% 100%;
+  background-repeat: no-repeat; }
+
+#combos {
+  background-image: url(../img/combos.png);
+  background-size: 40% 100%;
+  background-repeat: no-repeat; }
 
 #sucursal-2 {
   height: 355px;

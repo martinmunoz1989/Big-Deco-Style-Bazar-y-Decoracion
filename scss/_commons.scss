@@ -6,6 +6,16 @@
 
 }
 
-h1,h2{
+h1,h2,h3{
 	text-align: center;
+	font-size: $L;
+	font-weight: $regular;
+	text-decoration: underline;
 }
+
+figure{
+	border: double $color-2;
+}
+
+
+
