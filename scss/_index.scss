@@ -3,11 +3,17 @@
 	border:double $color-2;
 	height: $gde;
 	font-size: $L;
-			a{
+	
+
+		a{
 				text-decoration: none !important;
 				
 			}
 	
+}
+
+.flex{
+	@include flex(row,center,center,wrap);
 }
 
 #encontranos{
