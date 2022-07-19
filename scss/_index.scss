@@ -1,6 +1,6 @@
 .main__index{
-	color: $negro;
-	border:double $color-2;
+	color: map-get($map:$paleta, $key:"negro");
+	border:double map-get($map:$paleta, $key:"color-2");;
 	height: $gde;
 	font-size: $L;
 	

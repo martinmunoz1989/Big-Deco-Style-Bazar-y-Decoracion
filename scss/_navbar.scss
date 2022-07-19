@@ -1,18 +1,18 @@
 nav{
 	border: double $color-2;
-	background-color:$negro;
+	background-color:map-get($map:$paleta, $key:"negro");
 }
 
 ul li{
 	background: linear-gradient(to left,$rosa-chicle,$blanco-humo);
 	margin-left: 30px;
-	border-color: $color-1 !important;
+	border-color: map-get($map:$paleta, $key:"color-1") !important;
 		&:hover{
 		transform: translate(0px,10px);
 		transition: transform 1.5s;
 
 			a{
-				border-color: $color-2!important;
+				border-color: map-get($map:$paleta, $key:"color-2")!important;
 				
 		}
 	}

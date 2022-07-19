@@ -3,5 +3,5 @@
 }
 
 header{
-	background-color:$blanco
+	background-color:map-get($map:$paleta, $key:"blanco");
 }
