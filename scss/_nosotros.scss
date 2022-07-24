@@ -1,12 +1,20 @@
 
+@media (min-width: 550px){
+
 
 #sucursal-2{
 	height: 355px;
 	width: 474px;
 }
+}
 
 
+@media (max-width: 550px) {
+ .sucursales{
+ 	width: 100%;
+ }
 
+}
 
 
 
