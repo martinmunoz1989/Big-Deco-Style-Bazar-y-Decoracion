@@ -29,6 +29,9 @@ figure {
   font-size: 3vh;
   font-weight: 500; }
 
+ol {
+  list-style: none; }
+
 nav {
   border: double #ff5072;
   background-color: #0F0E0E; }
@@ -79,17 +82,17 @@ ul li {
 
 #novedades {
   background-image: url(../img/novedades.png);
-  background-size: 40% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat; }
 
 #ofertas {
   background-image: url(../img/ofertas.png);
-  background-size: 40% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat; }
 
 #combos {
   background-image: url(../img/combos.png);
-  background-size: 40% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat; }
 
 @media (min-width: 550px) {
