@@ -82,18 +82,21 @@ ul li {
 
 #novedades {
   background-image: url(../img/novedades.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat; }
+  background-size: 40% 100%;
+  background-repeat: no-repeat;
+  background-color: white; }
 
 #ofertas {
   background-image: url(../img/ofertas.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat; }
+  background-size: 40% 100%;
+  background-repeat: no-repeat;
+  background-color: white; }
 
 #combos {
   background-image: url(../img/combos.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat; }
+  background-size: 40% 100%;
+  background-repeat: no-repeat;
+  background-color: white; }
 
 @media (min-width: 550px) {
   #sucursal-2 {

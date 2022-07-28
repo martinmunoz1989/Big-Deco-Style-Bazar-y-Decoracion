@@ -19,24 +19,27 @@
 #encontranos{
 	height: $peque;
 	font-size: $L;
+	
 }
 
 #novedades{
 	background-image: url(../img/novedades.png);
-	background-size: 100% 100%;
+	background-size: 40% 100%;
 	background-repeat: no-repeat;
+	background-color: map-get($map:$paleta, $key:"blanco100%");
+
 }
 
 #ofertas{
 	background-image: url(../img/ofertas.png);
-	background-size: 100% 100%;
+	background-size: 40% 100%;
 	background-repeat: no-repeat;
-	
+	background-color: map-get($map:$paleta, $key:"blanco100%");
 }
 
 #combos{
 	background-image: url(../img/combos.png);
-	background-size: 100% 100%;
+	background-size: 40% 100%;
 	background-repeat: no-repeat;
-	
+	background-color: map-get($map:$paleta, $key:"blanco100%");
 }
